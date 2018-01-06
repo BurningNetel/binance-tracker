@@ -11,7 +11,7 @@ Reload systemd with systemctl daemon-reload, and enable the binance service with
 Use https://github.com/BurningNetel/binance-tracker-frontend to visualize the value of your portfolio over time.
 
 # This project is based on
-https://github.com/swordsecurity/binance/blob/master/binance.py
+https://github.com/swordsecurity/binance
 ## Binance API client in Python
 
 - Does not require an api key for public methods
