@@ -1,0 +1,13 @@
+[Unit]
+Description=binance service
+After=syslog.target network.target
+
+[Service]
+Type=simple
+User=joep
+WorkingDirectory=/opt/binance
+ExecStart=/opt/binance/bin/python /opt/binance/runner.py 
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
