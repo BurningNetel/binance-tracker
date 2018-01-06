@@ -6,7 +6,7 @@ After=syslog.target network.target
 Type=simple
 User=joep
 WorkingDirectory=/opt/binance
-ExecStart=/opt/binance/bin/python /opt/binance/runner.py 
+ExecStart=/opt/binance/bin/python /opt/binance/runner.py secret_key_here api_key_here
 Restart=on-failure
 
 [Install]
