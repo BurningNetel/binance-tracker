@@ -104,3 +104,4 @@ ENV/
 share/
 bin/
 secrets.txt
+.idea/
